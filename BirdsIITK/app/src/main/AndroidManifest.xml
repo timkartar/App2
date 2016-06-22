@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raktim.birdsiitk"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bird2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:debuggable="false">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BrowseActivity"
+            android:label="@string/title_activity_browse"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".galleryActivity"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".TopoActivity"
+            android:label="@string/title_activity_topo"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".ChecklistActivity"
+            android:label="@string/title_activity_checklist"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".GlossaryActivity"
+            android:label="@string/title_activity_glossary"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".BiblioActivity"
+            android:label="@string/title_activity_biblio"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".OtherActivity"
+            android:label="@string/title_activity_other"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".owlActivity"
+            android:label="@string/title_activity_owl"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".ducksActivity"
+            android:label="@string/title_activity_ducks"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".chatsActivity"
+            android:label="@string/title_activity_chats"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".snipesActivity"
+            android:label="@string/title_activity_snipes"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".eaglesActivity"
+            android:label="@string/title_activity_eagles"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".ploversActivity"
+            android:label="@string/title_activity_plovers"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".ergetsActivity"
+            android:label="@string/title_activity_ergets"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".pippitsActivity"
+            android:label="@string/title_activity_pippits"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".gullsActivity"
+            android:label="@string/title_activity_gulls"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".martinsActivity"
+            android:label="@string/title_activity_martins"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".DisplayMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".patridgesActivity"
+            android:label="@string/title_activity_patridges"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".mynasActivity"
+            android:label="@string/title_activity_mynas"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".cuckoos"
+            android:label="@string/title_activity_cuckoos"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+        <activity
+            android:name=".dovesActivity"
+            android:label="@string/title_activity_doves"
+            android:parentActivityName=".BrowseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.raktim.birdsiitk.BrowseActivity" />
+        </activity>
+    </application>
+
+</manifest>

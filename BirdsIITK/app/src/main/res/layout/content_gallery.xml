@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.raktim.birdsiitk.galleryActivity"
+    tools:showIn="@layout/activity_gallery"
+    android:background="#040000">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center_horizontal" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="right">
+            <Button
+                android:id="@+id/btnRotateImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous Image"
+                android:background="#95ffffff"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:layout_alignBottom="@+id/scrollView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="75dp"
+                android:layout_marginRight="20dp"
+                android:padding="6dp" />
+        <Button
+            android:id="@+id/btnRotateImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Image"
+            android:background="#95ffffff"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/btnRotateImage2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="6dp" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

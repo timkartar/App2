@@ -1,0 +1,1180 @@
+<resources>
+    <string name="app_name">Aves@IITK</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">explore</string>
+    <string name="title_activity_browse">BrowseActivity</string>
+    <string name="title_activity_scrolling">Gallery</string>
+    <string name="title_activity_gallery">gallery</string>
+    <string name="title_activity_topo">Topography</string>
+    <string name="title_activity_checklist">Checklist</string>
+    <string name="about_us">We are deeply indebted to Mr. Bikram Grewal for providing the text, used in this application. We are further grateful to him for arranging the accompanying photographs from some of India’s best bird photographers.\n
+        The contents of this application are copyrighted and cannot be used in any form, printed or electronic without the explicit permission of Bikram Grewal. We are also thankful to them for supplying their best photographs for our use. We are in the process of assigning credit to each individual photograph.\n
+        \nThis app is built by Raktim Mitra as a Summer Project under Prof. T.V.Prabhakar at Indian Institute of Technology Kanpur.Visit our website www.birds.iitk.ac.in\n\n\n\n\n</string>
+    <string name="large_text">
+                Status\n
+R   -> widespread resident\n 	r  -> very local resident\n
+W   -> widespread winter visitor\n  	w  -> sparse winter visitor\n
+P   -> widespread migrant\n  	p   -> sparse migrant\n
+V   -> vagrant or irregular visitor\n 	s   -> local summer breeder\n \n
+        ----------------------\n\n
+Common Name    --  	Local Status 	--    LATIN NAME
+  	  	 ----------------------\n\n
+ORDER: GALLIFORMES\n 	  	 \n
+Family: Phasianidae \n
+Black Francolin  --	r --	Francolinus francolinus\n
+Painted Francolin --V -- 	Francolinus pictus\n
+Grey Francolin --	R --	Francolinus pondicerianus\n
+Rain Quail --	r --	Coturnix coromandelica\n
+Rock Bush Quail  --	r --	Perdicula argoondah\n
+Indian Peafowl  --	R --	Pavo cristatus\n
+         	  	 -------------------------\n
+ORDER: ANSERIFORMES 	  	 \n\n
+Family: Dendrocygndiae 	  	 \n
+Lesser Whistling-duck --	R --	Dendrocygna javanica\n
+Family: Anatidae 	  	 \n
+Anatinae 	  	 \n
+Anserini 	  	 \n
+Greylag Goose   --	w --	Anser anser \n
+Ruddy Shelduck  --	w --	Tadorna ferruginea \n
+Common Shelduck -- 	V --	Tadorna tadorna \n
+Knob-billed Duck -- r --	Sarkidiornis melanotos \n
+Cotton Pygmy-goose  --	R --	Nettapus coromandelianus \n
+Anatini 	  	 \n
+Gadwall  --	w --	Anas strepera \n
+Eurasian Wigeon --	w --	Anas penelope \n
+Indian Spot-billed Duck -- 	r --	Anas poecilorhyncha \n
+Northern Shoveler -- w  --	Anas clypeata \n
+Northern Pintail  --	w --	Anas acuta \n
+Garganey  -- w --	Anas querquedula \n
+Common Teal  --	w --	Anas crecca \n
+Red-crested Pochard -- 	V --	Rhodonessa rufina \n
+Common Pochard --	w --	Aythya ferina \n
+  	  	 -----------------------\n
+ORDER: TURNICIFORMES 	  	 \n\n
+Family: Turnicidae 	  	 \n
+Barred Buttonquail --	r --	Turnix suscitator \n
+  	  	 ---------------------\n
+ORDER: PICIFORMES 	  	 \n\n
+Family: Picidae 	  	 \n
+Eurasian Wryneck  --	w --	Jynx torquilla \n
+Yellow-crowned Woodpecker -- r --	Dendrocopos mahrattensis \n
+Black-rumped Flameback  --	R --	Dinopium benghalense
+
+Family: Megalaimidae \n
+Brown-headed Barbet  --	R --	Megalaima zeylanica\n
+Coppersmith Barbet  --	R  -- Megalaima haemacephala\n
+         	  	 ----------------------\n
+ORDER: BUCEROTIFORMES 	  	 \n\n
+Family: Bucerotidae 	  	 \n
+Indian Grey Hornbill --	R -- Ocyceros birostris\n
+         	  	 ----------------------\n
+ORDER: UPUPIFORMES 	  	 \n\n
+Family: Upupidae 	  	 \n
+Common Hoopoe -- R -- Upupa epops\n
+         	  	 -----------------------\n
+ORDER: CORACIIFORMES 	  \n	 \n
+Family: Coraciidae 	  	 \n
+Indian Roller  -- R -- Coracias benghalensis\n
+Family: Alcedinidae 	  	 \n
+Common Kingfisher  -- r -- Alcedo atthis\n
+Family: Halcyonidae 	  	 \n
+White-throated Kingfisher  	-- R -- Halcyon smyrnensis\n
+Family: Cerylidae 	  	 \n
+Pied Kingfisher  --	R -- Ceryle rudis\n
+
+Family: Meropidae 	  	 \n
+Green Bee-eater -- R -- Merops orientalis\n
+Blue-tailed Bee-eater  --	s 	-- Merops philippinus\n
+         	  	 ---------------------\n
+ORDER: CUCULIFORMES 	  \n\n
+Family: Cuculidae 	  	 \n
+Pied Cuckoo  -- s -- Clamator jacobinus\n
+Common Hawk Cuckoo  -- R -- Hierococcyx varius\n
+Grey-bellied Cuckoo  --	s -- Cacomantis passerinus\n
+Asian Koel  -- R -- Eudynamys scolopacea\n
+Sirkeer Malkoha  	-- r 	-- Phaenicophaeus leschenaultii\n\n
+
+Family: Centropodidae 	  	 \n
+Greater Coucal    -- R --	Centropus sinensis\n\n
+         	  	 ------------------\n
+ORDER: PSITTACIFORMES 	  	 \n\n
+Family: Psittacidae 	  	 \n
+Aexandrine Parakeet   --	r --	Psittacula eupatria\n
+Rose-ringed Parakeet  --	R --	Psittacula krameri\n
+Blossom-headed Parakeet -- 	r --	Psittacula roseata\n
+Plum-headed Parakeet --	R --	Psittacula cyanocephala\n
+                 -------------------\n
+ORDER: APODIFORMES 	  	 \n\n
+Family: Apodidae 	  	 \n
+Asian Palm Swift  --	R --	Cypsiurus balasiensis\n
+House Swift  --	R --	Apus affinis\n
+         	  	 -------------------\n
+ORDER: STRIGIFORMES 	  	 \n\n
+Family: Tytonidae 	  	 \n
+Barn Owl --	r --	Tyto alba\n
+Family: Strigidae\n
+Collared Scops Owl  --	r --	Otus bakkamoena\n
+Eurasian Eagle Owl R --	R --	Bubo bubo\n
+Dusky Eagle Owl  --	V --	Bubo coromandus\n
+Brown Fish Owl  --	r --	Ketupa zeylonensis\n
+Asian Barred Owlet  --	r --	Glaucidium cuculoides\n
+Jungle Owlet  --	r --	Glaucidium radiatum\n
+Spotted Owlet  --	R --	Athene brama\n
+Brown Hawk Owl  --	r --	Ninox scutulata\n
+Short-eared Owl  --	w --	Asio flammeus\n
+Family: Caprimulgidae 	  	 \n
+Large-tailed Nightjar -- 	R --	Caprimulgus macrurus\n
+         	  	 --------------------\n
+ORDER: COLUMBIFORMES 	  	 \n\n
+Family: Columbidae 	  	 \n
+Rock Pigeon  --	R --	Columba livia\n
+Laughing Dove  --	R --	Streptopelia senegalensis\n
+Spotted Dove  --	R --	Streptopelia chinensis\n
+Red Collared Dove -- R --	Streptopelia tranquebarica\n
+Eurasian Collared Dove  --	R --	Streptopelia decaocto\n
+Yellow-footed Green Pigeon  --	R --	Treron phoenicoptera\n
+Sarus Crane --	r --	Grus antigone\n
+Demoiselle Crane -- 	V --	Grus virgo\n
+White-breasted Waterhen  --	R --	Amaurornis phoenicurus\n
+Watercock --	r --	Gallicrex cinerea\n
+Purple Swamphen  --	r --	Porphyrio porphyrio\n
+Common Moorhen  --	R --	Gallinula chloropus\n
+Eurasian Coot -- 	w --	Fulica atra\n
+Chestnut-bellied Sandgrouse  --	r --	Pterocles exustus\n
+Common Snipe  --	w --	Gallinago gallinago\n
+Jack Snipe  --	w --	Lymnocryptes minimus\n
+Black-tailed Godwit  --	w --	Limosa limosa\n
+Eurasian Curlew  --	w --	Numenius arquata\n
+Spotted Redshank  --	w --	Tringa erythropus \n
+ Common Redshank  --	W --	Tringa totanus\n
+        Marsh Sandpiper  --	w --	Tringa stagnatilis\n
+        Common Greenshank  --	w --	Tringa nebularia\n
+        Green Sandpiper  --	W --	Tringa ochropus\n
+        Wood Sandpiper  --	w --	Tringa glareola\n
+        Common Sandpiper -- 	W --	Actitis hypoleucos\n
+        Little Stint  --	w --	Calidris minuta\n
+        Temminck’s Stint -- 	w --	Calidris temminckii\n
+        Dunlin  --	w --	Calidris alpina\n
+        Ruff -- 	w --	Philomachus pugnax\n
+        Greater Painted-snipe  --	r --	Rostratula benghalensis\n
+        Pheasant-tailed Jacana  --	R --	Hydrophasianus chirurgus\n
+        Bronze-winged Jacana  --	R --	Metopidius indicus\n
+        Eurasian Thick-knee  --	R --	Burhinus oedicnemus\n
+        Beach Thick-knee  --	V --	Esacus neglectus\n
+        Black-winged Stilt  --	R --	Himantopus himantopus\n
+        Pied Avocet  --	V --	Recurvirostra avosetta\n
+        European Golden Plover -- 	V --Pluvialis apricaria\n
+        Grey Plover  --	V --	Pluvialis squatarola\n
+        Little Ringed Plover -- 	w -- Charadrius dubius\n
+        Kentish Plover  --	w --	Charadrius alexandrinus\n
+        Lesser Sand Plover  --	V  --	Charadrius mongolus\n
+        Northern Lapwing  --	w --	Vanellus vanellus\n
+        Yellow-wattled Lapwing  -- 	R --	Vanellus malarbaricus\n
+        Red-wattled Lapwing  --	R --	Vanellus indicus\n
+        Sociable Lapwing  --	V --	Vanellus gregarius\n
+        White-tailed Lapwing  --	r --	Vanellus leucurus\n
+        Indian Courser --	r --	Cursorius coromandelicus\n
+        Small Pratincole  --	r --	Glareola lactea\n
+        Indian Skimmer  --	V --	Rynchops albicollis\n
+        Pallas’s Gull  --	w --	Larus ichthyaetus\n
+        Brown-headed Gull  --	w --	Larus brunnicephalus\n
+        River Tern  --	r --	Sterna aurantia\n
+        Little Tern  --	V --	Sterna albifrons\n
+        Black-bellied Tern  -- V --	Sterna acuticauda\n
+        Whiskered Tern  --	rw --	Chlidonias hybridus\n
+        Osprey --	V --	Pandion haliaetus\n
+        Oriental Honey-buzzard  --	R --	Pernis ptilorhyncus\n
+        Black-winged Kite  --	R --	Elanus caeruleus\n
+        Black Kite  --	R --	Milvus migrans (subspecies- govinda)\n
+        Brahminy Kite  	-- V --	Haliastur indus\n
+        Egyptian Vulture  --	R --	Neophron percnopterus\n
+        White-rumped Vulture -- 	r --	Gyps bengalensis   \n
+        Indian Vulture  --	r --	Gyps indicus\n
+Red-headed Vulture  --	r --	Sarcogyps calvus\n
+Short-toed Snake Eagle  --	r --	Circaetus gallicus\n
+Crested Serpent Eagle  --	R --	Spilornis cheela\n
+Eurasian Marsh Harrier  --	W --	Circus aeruginosus\n
+Pallid Harrier  --	w --	Circus macrourus\n
+Montagu’s Harrier -- 	w --	Circus pygargus\n
+Shikra  --	R --	Accipiter badius\n
+Eurasian Sparrowhawk  --	w --	Accipiter nisus\n
+White-eyed Buzzard --	r --	Butastur teesa\n
+Long-legged Buzzard  --	w --	Buteo rufinus\n
+Tawny Eagle --	R --	Aquila rapax (subs- vindhiana)\n
+Crested Hawk Eagle --	V --	Nisaetus cirrhatus\n
+Common Kestrel  --	w 	Falco tinnunculus\n
+Red-necked Falcon  	r --	Falco chicquera\n
+Little Grebe -- 	R --	Tachybaptus ruficollis\n
+Family: Anhingidae 	  	 \n
+Darter --	R --	Anhinga melanogaster\n
+Family: Phalacrocoracidae 	  	 \n
+Little Cormorant --	R --	Phalacrocorax niger\n
+Indian Cormorant  --	R --	Phalacrocorax fuscicollis\n
+Great Cormorant  --	RW --	Phalacrocorax carbo\n
+Family: Ardeidae 	  	 \n
+Little Egret  --	R --	Egretta garzetta\n
+Grey Heron  --	RW --	Ardea cinerea\n
+Purple Heron --	R --	Ardea purpurea\n
+Great Egret -- 	R --	Casmerodius albus\n
+Intermediate Egret  --	R --	Mesophoyx intermedia\n
+Cattle Egret -- 	R --	Bubulcus ibis\n
+Indian Pond Heron  --	R --	Ardeola grayii\n
+Striated Heron --	r --	Butorides striata\n
+Black-crowned Night Heron -- 	R --	Nycticorax nycticorax\n\n
+Yellow Bittern  --	r --	Ixobrychus sinensis\n
+Cinnamon Bittern --	r --	Ixobrychus cinnamomeus\n
+Black Bittern --	r --	Dupetor flavicollis\n
+Family: Threskiornithidae\n
+Glossy Ibis  --	r --	Plegadis falcinellus\n
+Black-headed Ibis --	R --	Threskiornis melanocephalus\n
+Red-naped Ibis --	r -	Pseudibis papillosa\n
+Eurasian Spoonbill  --	r --	Platalea leucorodia\n
+Family: Pelecanidae\n
+Great White Pelican  --	V --	Pelecanus onocrotalus\n
+Spot-billed Pelican  --	V --	Pelecanus philippensis\n
+        Family: Ciconiidae\n
+Painted Stork  --	R --	Mycteria leucocephala\n
+Asian Openbill  --	R --	Anastomus oscitans\n
+Woolly-necked Stork -- 	R --	Ciconia episcopus\n
+Black-necked Stork  --	V --	Ephippiorhynchus asiaticus\n
+         ------------------------\n
+ORDER: PASSERIFORMES\n\n
+Family: Laniidae\n
+Brown Shrike  --	w --	Lanius cristatus\n
+Bay-backed Shrike  --	r --	Lanius vittatus\n
+Long-tailed Shrike  --	R --	Lanius schach (Lanius schach tricolor)\n
+Great Grey Shrike  --	V --	Lanius excubitor\n\n
+Family: Corvidae\n
+Corvinae\n
+Corvini\n
+Rufous Treepie  --	R --	Dendrocitta vagabunda\n
+House Crow  --	R --	Corvus splendens\n
+Large-billed Crow -- 	R --	Corvus macrorhynchos\n
+Oriolini\n
+Eurasian Golden Oriole  --	S --	Oriolus oriolus\n
+Black-hooded Oriole  --	r --	Oriolus xanthornus\n
+Black-winged Cuckooshrike  --	r --	Coracina melaschistos\n
+Black-headed Cuckooshrike  --	r --	Coracina melanoptera\n
+Small Minivet  --	R --	Pericrocotus cinnamomeus\n
+Scarlet Minivet  --	R --	Pericrocotus flammeus\n
+Dicrurinae\n
+Rhipidurini\n
+White-browed Fantail Flycatcher -- 	R --	Rhipidura aureola\n
+Dicrurini\n
+Black Drongo -- 	R --	Dicrurus macrocercus\n
+Ashy Drongo --	V --	Dicrurus leucophaeus\n
+White-bellied Drongo --	r --	Dicrurus caerulescens\n
+Monarchini\n
+Asian Paradise-flycatcher --	s --	Terpsiphone paradisi\n
+Aegithininae\n
+Common Iora  --	R --	Aegithina tiphia\n
+Malaconotinae\n
+Common Woodshrike  --	r --	Tephrodornis pondicerianus\n\n
+Family: Muscicapidae 	\n
+Turdinae\n
+Blue Rock Thrush  --	r --	Monticola solitarius\n
+Orange-headed Thrush  --	s --	Zoothera citrina\n
+        Dark-throated Thrush  --	w --	Turdus ruficollis\n
+Muscicapinae 	  	 \n
+Muscicapini 	  	 \n
+Red-breasted Flycatcher  --	w --	Ficedula parva\n
+Taiga Flycatcher --	w --	Ficedula albicilla\n
+Little Pied Flycatcher --	V --	Ficedula westermanni\n
+Ultramarine Flycatcher -- 	r --	Ficedula superciliaris\n
+Verditer Flycatcher  --	R 	-- Eumyias thalassina\n
+Grey-headed Canary Flycatcher  	R 	Culicicapa ceylonensis\n
+Saxicolini 	  	 \n
+Bluethroat  --	W --	Luscinia svecica\n
+Oriental Magpie Robin -- 	R --	Copsychus saularis\n
+Indian Robin  --	R --	Saxicoloides fulicata\n
+Black Redstart  --	W --	Phoenicurus ochruros\n
+Siberian Stonechat  --	W --	Saxicola torquata\n
+Pied Bushchat -- 	R --	Saxicola caprata\n
+Grey Bushchat -- 	V --	Saxicola ferrea\n
+Brown Rock-chat  --	R --	Cercomela fusca\n\n
+Family: Sturnidae 	  	 \n
+Chestnut-tailed Starling --	V --	Sturnus malabaricus\n
+Brahminy Starling -- 	R --	Sturnus pagodarum\n
+Rosy Starling --	s --	Sturnus roseus\n
+Common Starling  --	p --	Sturnus vulgaris\n
+Asian Pied Starling  --	R --	Sturnus contra\n
+Common Myna  --	R --	Acridotheres tristis\n
+Bank Myna  --	R --	Acridotheres ginginianus\n\n
+Family: Sittidae 	\n
+Sittinae 	  	 \n
+Chestnut-bellied Nuthatch -- r --	Sitta castanea\n\n
+Family: Paridae 	\n
+Remizinae 	  	 \n
+Fire-capped Tit --	V --	Cephalopyrus flammiceps\n\n
+Family: Hirundinidae 	  	 \n
+Sand Martin  --	R --	Riparia riparia\n
+Plain Martin -- 	r -- 	Riparia paludicola\n
+Dusky Crag Martin  --	r --	Hirundo concolor\n
+Barn Swallow -- 	W --	Hirundo rustica\n
+Wire-tailed Swallow  --	R --	Hirundo smithii\n
+Red-rumped Swallow  --	r --	Hirundo daurica\n
+Streak-throated Swallow  --	r --	Hirundo fluvicola\n\n
+Family: Pycnonotidae 	   \n
+Red-whiskered Bulbul  --	R --	Pycnonotus jocosus\n
+Himalayan Bulbul  --	V --	Pycnonotus leucogenys\n
+        Red-vented Bulbul  --	R --	Pycnonotus cafer\n\n
+Family: Cisticolidae 	  	 \n
+Zitting Cisticola  --	R --	Cisticola juncidis\n
+Graceful Prinia  --	R --	Prinia gracilis\n
+Ashy Prinia --	R --	Prinia socialis\n
+Plain Prinia --	R --	Prinia inornata\n
+Family: Zosteropidae 	  	 \n
+Oriental White-eye  	  	Zosterops palpebrosus\n\n
+Family: Sylviidae 	  \n
+Acrocephalinae 	  	 \n
+Blyth’s Reed Warbler -- 	r --	Acrocephalus dumetorum\n
+Common Tailorbird  --	R --	Orthotomus sutorius\n
+Greenish Warbler --	w --	Phylloscopus trochiloides\n
+Sylviinae 	  	 \n
+Timaliini 	  	 \n
+Yellow-eyed Babbler  --	R --	Chrysomma sinense\n
+Common Babbler  --	R --	Turdoides caudatus\n
+Large Grey Babbler  --	r --	Turdoides malcolmi\n
+Jungle Babbler  --	R --	Turdoides striatus\n
+Sylviini\n
+Lesser Whitethroat  --	W --	Sylvia curruca blythi\n
+Family: Alaudidae\n
+Indian Bushlark  --	r --	Mirafra erythroptera\n
+Ashy-crowned Sparrow Lark  --	R --	Eremopterix grisea\n
+Sand Lark  --	r --	Calandrella raytal\n
+Crested Lark --	r --	Galerida cristata\n
+Eurasian Skylark  --	w --	Alauda arvensis\n\n
+Family: Nectariniidae\n
+Nectariniinae\n
+Dicaeini\n
+Thick-billed Flowerpecker --	r --	Dicaeum agile\n
+Pale-billed flowerpecker --	r --	Dicaeum erythrorhynchos\n
+Nectariniini\n
+Purple Sunbird  --	R --	Nectarinia asiatica\n\n
+Family:Passeridae\n
+Passerinae\n
+House Sparrow  --	R --	Passer domesticus\n
+Chestnut-shouldered Petronia -- 	R --	Petronia xanthocollis\n
+Motacillinae 	  	 \n
+White Wagtail -- 	w --	Motacilla alba (subspecies- dukhunensis, personata, alboides)\n
+White-browed Wagtail  --	R --	Motacilla maderaspatensis\n
+Yellow Wagtail --	w --	Motacilla flava (subspecies- thunbergi, bema, melanogrisea)\n
+        Grey Wagtail  --	w --	Motacilla cinerea\n
+Paddyfield Pipit  --	R --	Anthus rufulus\n
+Tawny Pipit  --	w --	Anthus campestris\n
+Long-billed Pipit  --	w --	Anthus similis\n
+Tree Pipit  --	w --	Anthus trivialis\n
+Olive-backed Pipit  --	w --	Anthus hodgsoni\n
+Water Pipit  --	V --	Anthus spinoletta\n
+Ploceinae 	  	 \n
+Black-breasted Weaver -- 	R --	Ploceus benghalensis\n
+Baya Weaver  --	R --	Ploceus philippinus\n
+Estrildinae 	  	 \n
+Red Avadavat --	r --	Amandava amandava\n
+Indian Silverbill  --	R --	Lonchura malabarica\n
+Scaly-breasted Munia  --	R --	Lonchura punctulata\n
+Black-headed Munia  --	R --	Lonchura malacca\n\n
+Family: Fringillidae\n
+Fringillinae \n
+Emberizinae\n
+Red-headed Bunting  --	w --	Emberiza bruniceps\n
+Crested Bunting --	r --	Melophus lathami\n\n\n\n\n
+    </string>
+    <string name="title_activity_glossary">Glossary</string>
+    <string name="large_text2">
+        A Glossary of Ornithological Terms\n\n</string>
+    <string name="A">
+        ---------------------\nA\n---------------------\n
+    </string>
+     <string name="Awords">
+Aberrant -- Abnormal or unusual\n
+Accidental -- Vagrant\n
+Adult -- Mature, Capable of breeding\n
+Aerial -- Making use of the open sky\n
+Allopatric -- Relating to two or more related species whose range do not overlap\n
+Altitudinal -- migrant Moving between high mountains and lower foothills\n
+Altricial -- Blind and helpless when hatched\n
+Apical -- Outer extremities, particularly of the tail\n
+Aquatic -- Living on or in water \n
+Arboreal -- Living in trees \n
+Ashy -- Greyish Colour \n
+Axillaries -- Underwing feathers at the base of the wings, forming ‘armpits’ \n</string>
+    <string name="B">  ---------------------\n\nB\n---------------------\n\n         </string>
+     <string name="Bwords">
+Back -- Loosely applied to the mantle scapulars and rump \n
+Banyan -- Type of fig tree \n
+Barring -- ‘Sideway’ lines such as on tail or breast \n
+Basal  -- Innermost extremities, particularly of the tail or bill \n
+Bheel -- Shallow lake or wetland \n
+Biosphere -- The part of earth that is inhabited by life \n
+Biotope -- Area of uniform environment, flora and fauna \n
+Bristles -- Sensory feathers near beak \n
+Brood -- Young hatched from a single clutch \n
+Brood Parasitism -- Depositing of eggs by one species in the nest of an another \n
+Buff -- Yellowish white with a hint of pale brown \n
+Bund -- Man-made mud embankment \n</string>
+    <string name="C">  ---------------------\n\nC\n---------------------\n\n         </string>
+    <string name="Cwords">
+Canopy -- Leafy foliage of treetops \n
+Cap -- Upper part of head \n
+Carpal -- Bend of a closed wing, sometimes called shoulder \n
+Casque -- Growth above bill of hornbills \n
+Cere -- Patch of bare skin on upper base of bill of raptors \n
+Cheek -- Term loosely applied to sides of head, below the eye or on ear coverts\n
+Chevrons -- V-shaped contrasting marks on wings or bands across breast\n
+Cinnamon -- Light yellowish-brown colour\n
+Clutch -- Complete set of eggs laid by a single female \n
+Collar -- Distinctive band of colour that encircles or partly encircles the neck \n
+Colonial -- Roosting or nesting in groups \n
+Confiding -- Not shy \n	Flank -- Side of body\n
+Commensal -- Living together with man for mutual benefit \n
+Coverts -- Small feathers on wings and base of tail \n
+Covey -- Small group of partridges and allied species \n
+Crepuscular -- Active at dusk (twilight) and dawn \n
+Crest -- Extended feathers on head\n
+Crop -- Pouch-like enlargement of gullet in some  birds where food is partially digested\n
+    Crown -- Upper part of head\n
+    Crown-stripe -- Distinct line from forehead along centre of crown\n
+    Cryptic Hidden -- having protective colouring and/ or behaviour\n
+    Culmen -- Ridge on upper mandible of bill\n
+    Cursorial -- Ground running\n
+     </string>
+    <string name="D">  ---------------------\n\nD\n---------------------\n\n         </string>
+    <string name="Dwords">
+    Deciduous -- Trees that shed their leaves annually\n
+    Decurved -- Curving downwards\n
+    Diagnostic -- Sufficient to identify a species or subspecies\n
+    Dimorphic -- Having two forms of plumage\n
+    Distal-- Terminal or the outer end\n
+    Diurnal -- Active during daytime\n
+    Down -- Small soft feathers close to body of chicks\n
+    Drumming -- Rhythmic territorial hammering on trees by woodpeckers\n
+    Duars -- Forested areas south of eastern Himalayas\n
+     </string>
+    <string name="E">  ---------------------\n\nE\n---------------------\n\n         </string>
+    <string name="Ewords">
+     Ear-coverts -- Feathers covering the ear opening. Often distinctly coloured\n
+      Ear tufts -- Feathers protruding near ears\n
+     Echolocate -- Navigate by sound\n
+     Eclipse -- Plumage New dull plumage after breeding season, especially in ducks\n
+     Endemic -- Indigenous and confined to a place\n
+     Endangered -- Species facing high risk of extinction\n
+      Eurasian -- Of both Europe and Asia\n
+      Evergreen -- Forests that always have leaves\n
+       Eye-ring --  Contrasting ring around the eye\n
+        Eye-stripe -- Stripe through eye\n
+     	Extinct -- No longer in existence\n
+      Extirpated -- Locally extinct\n
+      Extralimital -- Not existing in the region\n
+        </string>
+    <string name="F">  ---------------------\n\nF\n---------------------\n\n         </string>
+       <string name="Fwords">
+       Facial Disc -- Heart shaped arrangement of feathers as in some owls and harriers\n
+       Fallow -- Cultivated land after cultivation and before ploughing\n
+    Family--  Specified group of genera\n
+    Ferruginous -- Rusty-brown colour\n
+    Feral-- Escaped, and living and breeding in the wild\n
+    Filoplume -- Hair-like feathers like in breeding egrets\n
+     Fledged -- Having just acquired feathers and ready to leave nest\n
+     Fledglings -- Young birds which have just acquired feathers\n
+     	Flight -- feathers Primary and secondary wing feathers\n
+    Flushed -- When disturbed into flight at close quarters\n
+     Forage -- Search for foodn\n
+        Foreneck -- The lower throat\nForm --Sub-species\n
+        Frons -- Forehead\n
+           Frugivorous -- Fruit-eating\n
+           Fulvous -- Brownish-yellow      \n
+           </string>
+    <string name="G">  ---------------------\n\nG\n---------------------\n\n         </string>
+    <string name="Gwords">
+        Game birds -- Pheasants, partridges and allied species\n
+        Gape -- Basal part of the beak (mainly for young birds and raptors)\n
+         Genera -- Plural of genus\n
+          Genus -- Group of related species\n
+         Ghats -- Hills parallel to the east and west coast of India\n
+         Gorget -- Band across upper chest\n
+          Granivorous -- Grain-eating\n
+         Gregarious -- Sociable Living in communities or flocks\n
+         Gular pouch -- Loose area of skin extending from throat as in pelicans and hornbills\n
+          Gular stripe -- Narrow and often dark stripe running down from the centre of throat\n
+         Guttural -- From the throat\n
+
+    </string>
+    <string name="H">  ---------------------\n\nH\n---------------------\n\n         </string>
+    <string name="Hwords">
+         Hackles -- Long and pointed neck feathers\n
+         Hawking -- Capturing insects in flight\n
+          Hepatic -- Rust or liver coloured plumage phase, mainly in female cuckoos\n
+          Hood -- Dark-coloured head and throat\n
+          Hunting party -- Group of birds usually of different species, seeking food\n
+         Hybridization -- Cross-breeding between two different species\n
+
+    </string>
+    <string name="I">  ---------------------\n\nI\n---------------------\n\n         </string>
+    <string name="Iwords">
+        Immature -- Plumage phases prior to adult\n
+        Incubate -- Giving warmth for eggs to hatch\n
+         Iris -- Coloured eye membrane surrounding pupil\n
+        Irruption -- Mass movement of a population from one place to another\n
+    </string>
+    <string name="J">  ---------------------\n\nJ\n---------------------\n\n         </string>
+    <string name="Jwords">
+        Jheel -- Shallow lake or wetland\n
+         Jizz -- Essence or striking characteristics of a species\n
+          Juvenile -- Immature bird immediately after leaving nest\n
+    </string>
+    <string name="L">  ---------------------\n\nL\n---------------------\n\n         </string>
+    <string name="Lwords">
+        Lamellae -- Small stiff comb-like membrane on inner edge of bill used for sieving food\n
+         Lanceolate -- Lance-shaped. Slim and pointed\n
+        Lantana -- Invasive aggressive shrub introduced to the region\n
+        Leading -- edge Front edge of wing\n
+        Lek -- Sociable courtship gatherings\n
+         Lobe -- Fleshy extensions to side-edges of toes of some birds\n
+         Local -- Unevenly distributed with a region\n
+         Loranthus -- Parasitical bush that grows on tress and frequented by flowerpeckers\n
+          Lores -- Area between eye and bill base\n
+          Lump -- Treatment of one or more forms previously treated as distinct species as race of a single species\n
+    </string>
+    <string name="M">  ---------------------\n\nM\n---------------------\n\n         </string>
+    <string name="Mwords">
+        Malar -- Stripe on side of throat\n
+        Mandible -- Each of the two parts of bill\n
+       Mangrove -- Coastal salt-resistant trees or bushes\n
+       Mantle -- Back, between wings\n
+       Mask -- Dark plumage round eye and ear-coverts\n
+       Mesial -- Stripe Central throat stripe\n
+        Migration -- Seasonal movement between distant places\n
+         Mirror -- White spots in wing-tips, mainly of gulls\n
+        Monotypic -- Of a single form with no subspecies\n
+        Montane -- Pertaining to mountains\n
+        Monsoon -- Rainy season in India\n
+        Morph -- One of several distinct types of plumage in the same species\n
+         Moult -- Seasonal shedding of plumage\n
+    </string>
+    <string name="N">  ---------------------\n\nN\n---------------------\n\n         </string>
+    <string name="Nwords">
+        Nail -- Hook on tip of upper mandible\n
+         Nape -- Back of neck\n
+          Nares -- Nostril openings\n
+         Necklace -- Narrow line round neck\n
+        Nictitating -- Membrane Transparent fold of skin forming a third eyelid\n
+        Nidicolous -- Chicks that remain in nests for a long duration after hatching\n
+        Nidifugous -- Chicks that leave the nests soon after hatching\n
+          Nidification -- Relating to nests or nesting\n
+         Nocturnal -- Active at night\n
+        Nomadic -- Species without specific territory except when breeding\n
+        Nominate -- First sub-species to be formally named\n
+         Non-passerine -- All order of birds except for Passerines\n
+        Notch -- Indentations in outline of feathers, wing or tail\n
+        Nuchal -- Crest Crest along back of neck\n
+        Nullah -- Dry or wet stream bed or ditch\n
+        Nuptial -- Plumage Breeding plumage\n
+    </string>
+    <string name="O">  ---------------------\n\nO\n---------------------\n\n         </string>
+    <string name="Owords">
+        Ocelli -- Brightly-coloured ‘eye-like’ spots as on peacocks\n
+        Occipital -- Back of head\n
+        Oology -- Study of bird’s eggs\n
+        Orbital -- ring Narrow ring of skin or feathers round the eye\n
+        Order -- Group of related families\n
+    </string>
+    <string name="P">  ---------------------\n\nP\n---------------------\n\n         </string>
+    <string name="Pwords">
+        Paddy-fields -- Rice fields often flooded\n
+        Paleartic -- Old World and arctic zone\n
+        Parasitic -- Deriving sustenance or taking advantage of others, like cuckoos laying eggs in other bird’s nest\n
+        Passerines -- Perching and song birds\n
+        Pectoral -- Breast area\n
+        Pelagic -- Ocean-going\n
+        Pellet -- Indigested material regurgitated by owls\n
+        Phase -- Colour form of a species\n
+        Pied -- Black and white\n
+        Plumage -- Feathers of a bird\n
+        Plumes -- Long, showy feathers, acquired during the breeding season\n
+        Polyandrous -- Female having more than one mate\n
+        Polygamous -- Male with more than one mate\n
+        Polymorphic -- Taking several forms\n
+         	Postocular -- Area behind the eye\n
+        Precocial -- Young hatched sighted and downcovered, e.g. ducklings\n
+        Predator -- Who feeds on other birds or animals\n
+  	    Primaries -- Outer flight feathers in wing\n
+    </string>
+    <string name="R">  ---------------------\n\nR\n---------------------\n\n         </string>
+    <string name="Rwords">
+        Race -- Sub-species\n
+        Rachis -- Central shaft of a feather\n
+        Range -- Geographical area or areas inhabited by a species\n
+        Raptors -- Birds of prey and Vultures, excluding owls\n
+        Record -- Published, or otherwise broadcast, occurrence\n
+        Record -- Published, or otherwise broadcast, occurrence\n
+        Remiges -- The primaries and secondaries combined\n
+        Rictal -- Around the bill\n
+        Resident -- Non-migratory and breeding in same place\n
+        Riparian -- Along creeks, streams, rivers and waterways\n
+        Roost -- Resting or sleeping space\n
+        Rufescent -- Inclining to redness\n
+        Rufous -- Reddish brown\n
+        Rump -- Lower back\n
+
+    </string>
+
+    <string name="S">  ---------------------\n\nS\n---------------------\n\n         </string>
+    <string name="Swords">
+      Sal -- Dominant tree of North Indian forests\n
+      Sallies -- Short flights and returning to perch as in bee-eaters and flycatchers\n
+      Salt pans -- Shallow reservoirs for drying out salt\n
+      Savanna -- Open flat land with grass and scattered bushes\n
+      Sedentary -- Staying in the same area throughout the year\n
+      Scalloped -- Curved markings on edges of feathers\n
+      Scapulars -- Feathers along edge of mantle\n
+      Scrape -- Shallow depression made by birds to serve as nest\n
+      Secondaries -- Inner wing feathers\n
+      Sedentary -- Confined with a particular area\n
+      Shaft -- Central stem of a feather, often hidden\n
+       Shank -- Bare parts of a leg\n
+      Sholas -- Small forests in SW Indian valleys\n
+     Shoulder -- Where the wing meets the body\n
+     Shorebird -- Long-legged bird living near water\n
+     Skins -- Bird specimens prepared for scientific studies\n
+      Skulker -- Bird that mostly remains within vegetation covenr\n
+      Slaty -- Dull bluish-grey\n
+     Soar -- Rising flight on still extending wings using thermals\n
+     Speculum -- Area of colour on secondary feathers of wings\n
+     Streamers -- Long extensions to feathers, usually of tail\n
+     Spangles -- Distinctive white or shimmering spots in plumage\n
+     Species -- Groups of birds reproductively isolated from other such groups\n
+      Speculum -- Shiny, colourful patch on secondary feathers of the wing of some ducks\n
+     Storey -- Level of the tree or forest\n
+     Spur -- Sharp horny growth on legs of some birds\n
+     Straw -- Pale yellow colour\n
+      Streaks -- ‘Lenghtwise’ lines on breasts or tail\n
+     Streamers -- Long extension of tail feathers\n
+Striated -- Marked with fine streaks\n
+     Sooty -- Blackish Colour\n
+     Sub-adult -- Immature moulting into adult plumage\n
+     Sub-montane -- Hills below highest mountains\n
+     Sub-song -- Subdued version of normal territorial song\n
+     Sub-species -- Distinct form that does not have specific status\n
+     Sub-terminal -- band Broad band on outer part of feather\n
+ 	Supercilia -- Plural of supercilium\n
+     Supercilium -- Streak above eye\n
+      Symbiotic -- Interdependence between different species\n
+
+    </string>
+
+    <string name="T">  ---------------------\n\nT\n---------------------\n\n         </string>
+    <string name="Twords">
+      Tail -- Streamers Elongated ribbon-like tail feathers\n
+      Talons -- Strong sharp claws used to seize or kill prey\n
+       Tank -- Water reservoir\n
+      Tarsus -- Lower part of a bird’s legs\n
+      Taxonomy -- Science of classifying organisms\n
+      Teak -- Dominant tree of South Indian forests\n
+      Terai -- Alluvial strech of land south of the Himalayas\n
+      Terminal band -- Broad band on tip of feather or tail\n
+       Terrestrial -- Ground living\n
+      Tertials -- Innermost wing coverts, often covering secondaries\n
+      Totipalmate -- All four toes connected to a single web\n
+      Trailing -- edge Rear edge of wing\n
+    </string>
+
+    <string name="U">  ---------------------\n\nU\n---------------------\n\n         </string>
+    <string name="Uwords">
+      Underparts -- Under surface of a bird from throat to vent\n
+      Underwing -- Undersurface of a wing including the linings and flight feathers\n
+      Upperparts -- Upper surface of a bird including wings, back and tail\n
+      Upperstorey -- Canopy of a tree\n
+
+    </string>
+
+    <string name="V">  ---------------------\n\nV\n---------------------\n\n         </string>
+    <string name="Vwords">
+     Vagrant -- Accidental, irregular\n
+     Vent -- Undertail area\n
+       	Ventral -- Undersurface of body\n
+       Vermiculations -- Wavy (worm-like) markings\n
+       Vinaceous -- Red wine coloured warm pink\n
+        Vocal -- mimicry Imitating the sounds of other birds\n
+    </string>
+
+    <string name="W">  ---------------------\n\nW\n---------------------\n\n         </string>
+    <string name="Wwords">
+     Waders -- Shorebirds. Usually, the smaller, longlegged waterbirds\n
+      Washed -- Suffused with a particular colour\n
+     Wattle -- Bare skin, often coloured, on part of head\n
+     Web Skin -- stretched between toes\n
+     Wildfowl -- Ducks and geese\n
+     Wing-bar -- visible line of colour at tip on wingcoverts\n
+      Wing-coverts -- Small feathers on wing at base of primaries and secondaries\n
+     Wing-span -- Length from one wing tip to the other when fully extended\n
+      Winter plumage -- Plumage seen during the nonbreeding winter months\n
+    </string>
+
+    <string name="Z">  ---------------------\n\nZ\n---------------------\n\n         </string>
+    <string name="Zwords">
+     Zygodactylous -- Having two toes directed forward and two backwards\n
+    </string>
+    <string name="title_activity_biblio">BIBliography</string>
+    <string name="bibliotext">
+        Ali, S. &amp; Abdulali, H. (1941) The Birds of Bombay
+and Salsette. Bombay: Prince of Wales Museum.
+Ali, S. (1941) The Book of Indian Birds. Bombay:
+BNHS.\n
+Ali, S. (1945) The Birds of Kutch. London: OUP.\n
+Ali, S. (1949) Indian Hill Birds. Bombay: OUP.\n
+Ali, S. (1953) The Birds of Travancore and Cochin.
+Bombay: OUP.\n
+Ali, S. (1956) The Birds of Gujarat. Bombay:
+Gujarat Research Society.\n
+Ali, S. (1960) A Picture Book of Sikkim Birds.
+Gangtok : Government of Sikkim.\n
+Ali, S. (1962) The Birds of Sikkim. Delhi: OUP.\n
+Ali, S. &amp; Ripley, D. (1964-74) Handbook of the\n
+Birds of India &amp; Pakistan (Vols. 1-10). Bombay:
+OUP.\n
+Ali, S. &amp; Futehally, L. (1967) Common Birds. New
+Delhi: NBT.\n
+Ali, S. (1968) Common Indian Birds, A Picture
+Album. New Delhi: NBT.\n
+Ali, S. (1969) Birds of Kerala. Madras: OUP.\n
+Ali, S. (1977) Field Guide to the Birds of the
+Eastern Himalayas. Bombay: OUP.\n
+Ali, S. (1979) Bird Study in India: Its History and\n
+its Importance. New Delhi: ICCR.\n
+Ali, S. &amp; Ripley, D. (1983) A Pictorial Guide to
+the Birds of the Indian Subcontinent. Bombay:
+OUP.\n
+Ali, S. (1985) Fall of a Sparrow. Bombay: OUP.\n
+Ali, S. (1996) The Book of Indian Birds. (12th ed.)
+New Delhi: BNHS &amp; OUP.\n
+Ali, S., Biswas, B. &amp; Ripley, D. (1996) Birds of
+Bhutan. Calcutta: ZSI.\n
+Ara, J. (1970) Watching Birds. New Delhi: NBT.\n
+BNHS. (1996) Dr. Salim Ali Centenary Issue Vol.
+93, No.3. Bombay: BNHS.\n
+Baker, E.C.S. (1908) The Indian Ducks and Their
+Allies. Bombay: BNHS.\n
+Baker, E.C.S. (1913) Indian Pigeons and Doves.
+London: Witherby &amp; Co.\n
+Baker, E.C.S. (1921-30) Game-Birds of India,\n
+Burma &amp; Ceylon. (Vols. I-3). London: John
+Bale.\n
+Baker, E.C.S. (1922-31) Fauna of British India.\n
+BIRDS (Vols. I-8). London: Taylor and Francis.\n
+Baker, E.C.S. (1923) A Handlist of the Genera and 	Species of Birds of the Indian Empire. Bombay:
+BNHS.\n
+Baker, E.C.S. (1923) Handlist of the Birds of the\n
+Indian Empire. Bombay: RO Spence.\n
+Baker, E.C.S. (1932-35) The Nidification of Birds
+of the Indian Empire. (Vols.1-4) London: Taylor
+and Francis.\n
+Baker, H.R. &amp; Inglis, C.M. (1930) The Birds of
+Southern India: Madras, Malabar, Travancore,
+Cochin, Coorg and Mysore. Madras: Govt.
+Press.\n
+Bannerjee, A (2008) Common Birds of the Indian
+Subcontinent. New Delhi, Rupa\n
+Barnes, H.E. (1885) Handbook to the Birds of the
+Bombay Presidency. Calcutta: Calcutta Central
+Press.\n
+Bates, R.S.P. (1931) Bird Life in India. Madras:
+Madras Diocesan Press.\n
+Bates, R.S.P. &amp; Lowther, E.H.N. (1952) Breeding
+Birds of Kashmir. Bombay: OUP.\n
+Beebe, W. (1927, 1994) Pheasant Jungles. Reading:
+WPA.\n
+Besten, J, W den. (2004) Birds of Kangra,
+Dharmsala: Moonpeak Publishers\n
+Besten, J, W den (2008) Birds of India, New Delhi:
+Mosaic Books\n
+BirdLife International (2001): Threatened Birds
+of Asia: BirdLife International Red Data Book.\n
+Cambridge: BirdLife International\n
+Blyth, E. (1849-52) Catalogue of the Birds in the\n
+Museum of Asiatic Society. Calcutta: J. Thomas\n
+Baptist Mission Press.\n
+Choudhury, A. (2001) Birds of Assam, Guwahati:
+Gibbon Books.\n
+Choudhury, A. (2006) A Pocket Guide to the Birds
+of Arunachal Pradesh, Guwahati: The Rhino
+Foundation\n
+Choudhury, A (2003) A Pocket Guide to the Birds
+of Nagaland, Guwahati: Gibbon Books\n
+Daniels, J.C &amp; Ugra, G. (2003) Petronia, Mumbai:
+BNHS\n
+Daniels, R. (1992). Birds of Urban South India.\n
+Bangalore: Indian Institute of Science.\n
+Daniels, R. (1996) Fieldguide to the Birds of
+Southwest India. New Delhi: OUP.\n
+Dave, K.N. (1985) Birds in Sanskrit Literature.\n
+        Delhi: Motilal Banarsidass.\n
+Dewar, D. (1909) Birds of the Plains. London:
+John Lane.\n
+Dewar, D. (1915) Birds of the Indian Hills.
+London: The Bodley Head.\n
+Dewar, D. (1916) A Bird Calendar for Northern
+India. London: Thacker.\n
+Dewar, D. (1923) Himalayan and Kashimiri Birds.
+London: J. Lane.\n
+Dewar, D. (1923) Indian Birds. London: John
+Lane the Bodley Head.\n
+Dewar, D. (1923) Birds at the Nest. London: John
+Lane\n
+Dewar, D. (1923-25) The Common Birds of India.
+Vols.I-2. Calcutta: Thacker and Spink.\n
+Dewar, D. (1925) Indian Bird Life. London: John
+Lane The Bodley Head Limited.\n
+Dewar, D. (1928) Game Birds. London: Chapman
+&amp; Hall.\n
+Dharmakumarsinhji, R.S. (1954) Birds of
+Saurashtra. Bombay: TOI Press.\n
+Dharmakumarsinhji, R.S. &amp; Lavkumar, K.S.
+(1972) Sixty Indian Birds. New Delhi: Ministry
+of Information and Broadcasting.\n
+EHA Introduction by Ali, S. (1947) The Common
+Birds of India. Bombay: Thacker &amp; Co. Ltd.\n
+Finn, F. (1901) How to Know the Indian Ducks.
+Calcutta: Thacker, Spinks &amp; Co.\n
+Finn, F. (1916) Game Birds of India &amp; Asia.
+Calcutta: Thacker, Spink &amp; Co.\n
+Finn, F. (1917) The Birds of Calcutta. Calcutta:
+Thacker, Spink &amp; Co.\n
+Finn, F. (1920) How to Know the Indian Waders.
+Calcutta: Thacker, Spink &amp; Co.\n
+Finn, F. (1920) Indian Sporting Birds. London: F.
+Edwards.\n
+Finn, F. (1921) The Water Fowl of India &amp; Asia.
+Calcutta &amp; Simla: Thacker, Spink &amp; Co.\n
+Finn, F. (1950) Garden &amp; Aviary Birds of India.
+Calcutta: Thacker, Spink &amp; Co.\n
+Fleming, R.L. Sr &amp; Fleming, R. Jr (1970) Birds of
+Kathmandu and Surrounding Hills Kathmandu:
+Jore Ganesh Press.\n
+Fleming, R.L. Sr. et al. (1984) Birds of Nepal: With
+reference to Kashmir and Sikkim. Nepal: Nature
+Himalayas.\n
+Futehally, L. (1959) About Indian Birds. Bombay:
+Blackie &amp; Son (India) Ltd. 	Futehally, L, Ali, S &amp; Devasar N (2008) About
+Indian Birds: New Delhi, Wisdom Tree\n
+Futehally, Z. (ed) (2006) India Through Its Birds,
+Bangalore, Dronequill Publishers Pvt. Ltd\n
+Gandhi, T (ed) (2007) A Bird’s Eye View: The
+Collected Essays and Shorter Writings of Salim\n
+Ali (two Vols.) New Delhi: Permanent Black.\n
+Ganguli, U. (1975) A Guide to the Birds of the
+Delhi Area. New Delhi: ICHR.\n
+Gould, J. (1832) A Century of Birds from the
+Himalayan Mountains. London: Published by
+the author.\n
+Gould, J. (1850-73) Birds of Asia. Vols. I-6.
+London: Published by the author.\n
+Grewal, B. (1995) Birds of the Indian
+Subcontinent. Hong Kong: The Guidebook
+Company Limited.\n
+Grewal, B. (1995,2008) Birds of the India &amp;
+Nepal. London: New Holland.\n
+Grewal, B. (1995) Threatened Birds of India. New
+Delhi.\n
+Grewal, B. (ed) (1995) The Avifauna of the Indian
+Subcontinent Part 1. Bombay: Sanctuary Vol
+XV No 5.\n
+Grewal, B. (ed) (1995) The Avifauna of the Indian
+Subcontinent Part 2.
+Bombay: Sanctuary Vol. XV No 6.\n
+Grewal, B. (1998) A Photographic Guide to the
+Birds of the Himalayas. London: New Holland.
+Grewal, B. &amp; Mahajan, J. (2001) Splendid
+Plumage, British Bird Painters in India, Hong
+Kong: Local Colour.
+Grewal, B, Pfister, O &amp; Harvey, B. (2002) A
+Photographic Guide to the Birds of India, And
+the Indian Subcontinent including Pakistan,
+Nepal, Bhutan, Bangladesh, Sri Lanka and the
+Maldives, Singapore: Periplus\n
+Grewal B. Sen S &amp; Sreenivasan (2012) Birds of
+Nagaland, Kohima: Nagaland Govt.\n
+Grewal B. Sen S &amp; Sreenivasan (2012)A
+companion to the Birds of Nagaland, Kohima:
+Nagaland Govt.\n
+Grimmet, R Inskipp, T., &amp; Inskipp, C. (1998)
+Birds of the Indian Subcontinent. UK: A&amp;C
+Black.\n
+Grimmet, R Inskipp, T., &amp; Inskipp, C. (1999)
+Field Guide to the Birds of Bhutan; UK: A&amp;C
+Black\n
+        Grimmet, R, Inskipp, T., &amp; Inskipp, C. (2000)
+Field Guide to the Birds of Nepal; UK: A&amp;C
+Black\n
+Grimmet, R &amp; Inskipp, T. (2003) Birds of
+Northern India New Delhi: OUP. (Available also
+in Gujarati, Urdu &amp; Hindi)\n
+Grimmet, R &amp; Inskipp, T. (2005) Birds of
+Southern India New Delhi, OUP: (Available
+also in Marathi, Kannada, Malayalam, Telugu
+&amp; Tamil)\n
+Grimmet R, Inskipp, T &amp; Roberts, T. (2008) Birds
+of Pakistan, London: Christopher Helm\n
+Harris, P. (1996) Goa, The Independent Birder?s
+Guide. Lowestoft UK: Eastern Publications.\n
+Harrison, J (1999) A Field Guide to The Birds of
+Sri Lanka, New Delhi: OUP\n
+Harvey, W.G. (1990) Birds in Bangladesh. Dhaka:
+University Press Limited.\n
+Harvey, B, Devasar, N &amp; Grewal, B. (2006) Atlas
+of the Birds of Delhi and Haryana, New Delhi:
+Rupa &amp; Co\n
+Hassan, M (2001) Birds of the Indus, Karachi:
+OUP\n
+Henry, G.M. (1927) Birds of Ceylon. London: The
+Ceylon Government.\n
+Henry, G.M. (1953) A Picture Book of Ceylon
+Birds. Dept. of Information. Ceylon.\n
+Henry, G.M. (1955) A Guide to the Birds of
+Ceylon. London: OUP.\n
+Holmer, M.R.N. (1923) Indian Bird life. London:
+OUP.\n
+Holmer, M.R.N. (1926) Bird Study in India.
+London: OUP.\n
+Hume, A.O. (1869) My Scrap Book: or Rough
+Notes on Indian Oology and Ornithology.\n
+Calcutta: C.B. Lewis, Baptist Mission Press.\n
+Hume, A.O. (1873) Contributions to Indian
+Ornithology. London: L. Reeve &amp; Co.\n
+Hume, A.O. (ed) (1873-83) Stray Feathers (Vols.
+1-12) Published by the Editor.\n
+Hume, A.O. &amp; Marshall (1879-81) The Game\n
+Birds of India, Burmah, and Ceylon. Vols. I-3.
+London: John Bale.\n
+Hume, A.O. &amp; Oates (1889) Hume?s Nests &amp;
+Eggs of Indian Birds. (Vol. I-3) London: R. H.
+Porter.\n
+Hutson, Major-General H.P.W. (1954) The Birds
+About Delhi. The Delhi Bird Watching Society. 	Inglis, C.M. (undated) Sixty-eight Indian Birds.
+Darjeeling: Natural History Museum.\n
+Inskipp, C. (1988) A Birdwatchers? Guide To
+Nepal. England: Prion.\n
+Inskipp, T. &amp; Inskipp, C. (1991) A Guide to The
+Birds of Nepal. London: Christopher Helm.\n
+Inskipp, C. &amp; Inskipp, T. (undated) An
+Introduction to Birdwatching in Bhutan.
+Thimpu, Bhutan: WWF.\n
+Inskipp, T. et al. (1996) An Annotated Checklist
+of the Birds of the Oriental Region. Sandy, UK:
+OBC.\n
+Inskipp, C. (1989) Nepal?s Forest Birds: Their
+Status and Conservation. Cambridge: UK.\n
+Islam, MZ ur and Rahmani, A. (eds) (2004) A
+Important Bird Areas in India: Priority Sites for
+Conservation Mumbai: BNHS\n
+Islam, MZ ur and Rahmani, A (2005) Threatened
+Birds of India, Mumbai, BNHS\n
+Jerdon, T.C. (1845-1847) Illustrations of Indian
+Ornithology. Madras.\n
+Jerdon, T.C. (1862-64) The Birds of India: A
+Natural History. Vols. I-3. Calcutta: The Military
+Orphan Press.\n
+Jerdon, T.C. (1864) The Game Birds and Wildfowl
+of India. London: Military Orphan Press.\n
+Jonathan, J.K. &amp; Kulkarni. (1989) Beginners?
+Guide to Field Ornithology. Calcutta: ZSI.\n
+Jones, A.E. (undated) The Common Birds of Simla.
+Simla: Liddell?s Printing Works.\n
+Kaul, S.C. (1939) Birds of Kashmir. Srinagar: The
+Normal Press.\n
+Kazmierczak, K. &amp; Singh, R. (2001) A Bird
+Watchers Guide to India. Delhi: OUP\n
+Kazmierczak, K. &amp; van Perlo, B. (2000) A Field-
+Guide to the Birds of the Indian Subcontinent.
+UK: Pica Press\n
+Kershaw, C. (1925) Familiar Birds of Ceylon.
+Colombo: H.W. Cave &amp; Co.\n
+Kershaw, C. (1949) Bird Life in Ceylon.\n
+Khacher, L. (undated) Birds of the Indian Wetland.
+New Delhi: Department of Environment.\n
+King, B. et al. (1991) A Field Guide to the Birds of
+South East Asia. London: Collins.\n
+Kotagama, S &amp; Jinasama, J (2000) Endemic Birds
+of Sri Lanka, Colombo, Wild Heritage Trust\n
+Kotagama, S. &amp; Fernando, P. (1994) A Field
+Guide to the Birds of Sri Lanka. Colombo: The
+        Wildlife Heritage Trust of Sri Lanka.\n
+Kothari, A. &amp; Chhapgar, B.F. (eds.) (1996) Salim
+Ali?s India. New Delhi: OUP &amp; BNHS.\n
+Lal, R (2003) Birds of Delhi. New Delhi: OUP\n
+Lal, R (2006) Water Birds New Delhi: Rupa.\n
+Lainer, H (2004) Birds of Goa, Goa: The Other
+India Bookstore\n
+Lester, C.D. (undated) The Birds of Kutch.\n
+Lister, M.D. (1954) A Contribution to the
+Ornithology of the Darjeeling Area. Bombay:
+BNHS.\n
+Lowther, E.H.N. (1949) A Bird Photographer in
+India. London: OUP.\n
+Lushington, C. (1949) Bird Life in Ceylon.
+Colombo: Times of Ceylon Ltd.\n
+MacDonald, M. (1960) Birds in My Indian
+Garden. London: Jonathan Cape.\n
+MacDonald, M. (1962) Birds in The Sun:
+Some Beautiful Birds of India. London: D.B.
+Taraporevala &amp; Sons.\n
+Mackintosh, L.J. (1915) Birds of Darjeeling and
+India: Part I. Calcutta: J.N. Banerjee &amp; Son.\n
+Monga, S (2003) Birds of Mumbai, Mumbai, India
+Book House\n
+Monga, S (2004) Birds of the Sanjay Gandhi
+National Park, Mumbai, BNHS\n
+Mookherjee, K. (1995) Birds and Trees of Tolly.
+Calcutta: Tollygunge Club.\n
+Mukherjee, A.K. (1992) Birds of Goa. Calcutta:
+ZSI.\n
+Mukherjee, A.K. (1995) Birds of Arid &amp; Semi Arid
+Tracts. Calcutta: ZSI.\n
+Mukherjee, K. (1994) Narendrapur Wildlife
+Sanctuary. Calcutta: K Dey.\n
+Murray, J.A. (1888) Indian Birds or the Avifauna of
+British India. Vols. I-2. London: Trubner &amp; Co.\n
+Murray, J.A. (1889) The Edible and Game Birds of
+British India with its
+Dependencies and Ceylon. London: Trubner.\n
+Murray, J.A. (1890) The Avifauna of the Island of
+Ceylon. Bombay: Educational Society Press.\n
+Naoroji, R (2006) Birds of Prey of the Indian
+Subcontinent, London: Christopher Helm\n
+Neelakantan, K.K., Sashikumar &amp; Venugopalan
+(1993) A Book of Kerala Birds. Trivandrum:
+WWF.\n
+Oates, E.W. (1883) Handbook of the Birds of
+British Burma. Vols.1-2. London: RH Porter.\n 	Oates, E.W. &amp; Blandford (1889-98) Fauna of
+British India Birds. Vols.1-4. London: Taylor &amp;
+Francis.\n
+Oates, E.W. (1898) A Manual of the Game Birds
+of India, Land Birds. Bombay: Messrs. A.J.
+Combridge.\n
+Oates, E.W. (1899) A Manual of the Game Birds
+of India: Game Birds. Bombay: A.J. Combridge.\n
+Pande, S, Tambe, S, Clement Francis &amp; Sant, N
+(2003) Birds of Western Ghats, Konkan and
+Malabar Mumbai: BNHS\n
+Pfister, O (2004) Birds and Mammals of Ladakh.
+New Delhi: OUP.\n
+Phillips, W.W.A. (1949-1961) Birds of Ceylon:
+Vols.1-4. Colombo: Ceylon Daily News Press,
+Lake House.\n
+Phillips, W.W.A. (1953) Revised Checklist of the
+Birds of Ceylon. National Museums of Ceylon.\n
+Phillips, W.W.A. (1978) Annotated Checklist of
+the Birds of Ceylon. Colombo: Ceylon Bird
+Club.\n
+Pittie, A. (1995) A Bibliographic Index to the
+Ornithology of the Indian Region. Part 1.
+Hyderabad: Published by the author\n
+Pittie, A (2010) Birds in Books. New Delhi:
+Permanent Black\n
+Prasad, A (2006) Birds of Western Maharashtra,
+A Reference Guide, Goa, The Other India
+Bookstore\n
+Pyhala, M (2001) Birds of Islamabad, WWF
+Pakistan\n
+Rahmani, A. (2005) Common Birds of India New
+Delhi: Publications Division.\n
+Rahmani, A &amp; Ugra, G (2005) Birds of Wetlands
+and Grasslands. Mumbai: BNHS\n
+Rangaswami, S. &amp; Sridhar, S. (1993) Birds of Rishi
+Valley. Andhra Pradesh.\n
+Rasmussen, P &amp; Anderton, J (2005) Birds of
+South Asia: The Ripley Guide, Barcelona: Lynx
+Editions.\n
+Ripley, D. (1952) Search for the Spiny Babbler.
+Boston: Houghton Mifflin.\n
+Ripley, D. (1978) A Bundle of Feathers. London:
+OUP.\n
+Ripley, D. (1982) A Synopsis of the Birds of India
+and Pakistan. Bombay: BNHS.\n
+Roberts, T.J. (1991-92) The Birds of Pakistan. Vols.
+I-2. Karachi: OUP.\n
+        Samarpan, A (2006) Birds of India: Including
+Nepal, Sri Lanka, Bhutan, Pakistan and
+Bangladesh, New Delhi: Wisdom Tree.\n
+Shrestha TK (1998) The Spiny Babbler, An
+Endemic Bird of Nepal (?)\n
+Sinclair I &amp; Langard, O (1998) Birds of the Indian
+Ocean, Struik\n
+Smythies, B.E. (1953) The Birds of Burma.
+London: Oliver and Boyd.\n
+Snilloc. (1945) Mystery Birds of India. Bombay:
+Thacker &amp; Company Limited.\n
+Sondhi, A (2001) Birds of Pune, New Delhi:
+Kalpavriksh\n
+Sonobe, K. (ed) (1993) A Field Guide to the
+Waterbirds of Asia. Tokyo.\n
+Spierenburg, P (2005) Birds in Bhutan: Status and
+Distribution, Sandy: OBC\n
+Tikader, B.K. (1984) Birds of Andaman &amp; Nicobar
+Islands. Calcutta: ZSI.\n
+Urfi, A.J . (2004) Birds: Beyond Watching.
+Hyderabad: Universities Press.\n
+Urfi, A.J, (2007) Birds of India: A Literary
+Anthology. New Delhi. OUP\n
+Vaurie, Charles. (1972) Tibet and its Birds.
+London: H.F. &amp; G. Witherby Ltd.\n
+Wait, W.E. (1925) Birds of Ceylon. London: Dualu
+&amp; Co.\n
+Ward, Geoff. (1994) Islamabad Birds. Islamabad:
+Asian Study Group.\n
+Whistler, Hugh. (1928) Popular Handbook of
+Indian Birds. London: Gurney and Jackson.\n
+Wijeyeratne, S, Warakagoda, D &amp; Zylva TS (2000)
+A Photographic Guide to the Birds of Sri Lanka,
+London: New Holland.\n
+Woodcock, M. (1980) Collins Handguide to the
+Birds of the Indian Subcontinent. London:
+Collins.\n
+Wright, R.C and Dewar, D. (1925) The Ducks of
+India. London: H.F. &amp; G. Witherby.\n
+Sound Guides:
+Barucha, E (1999) Indian Bird Calls, Bombay:
+BNHS\n
+Breil, F &amp; Roche, JC (2000) Birding in India and
+Nepal. Sittelle Editions\n
+Connop, S. (1993) Birdsongs of Nepal. New York:
+Turaco.\n
+Connop, S. (1995) Birdsongs of the Himalayas.
+Toronto: Turaco. 	Warakagoda, d (?)\n Bird Sounds of Sri Lanka
+Roche, J &amp; Walker, A (?)\n Jungles of Sri Lanka
+Jannes, H (2002) Bird Sounds of Goa and South
+India, Wildsounds\n
+Sivaprasad P.S. (1994) An Audio Guide to the Birds
+of South India. London: OBC.\n
+Steve Smith (1995) Bird Recordings from Sri
+Lanka (Privately Produced)\n
+Surat Nature Club (?) Call of Indian Birds (4 Vols)
+Surat\n
+Rymer M (2002) Birding Goa Two Vols. (Privately
+Produced)\n
+Rymer M (1999) Birding in Sri Lanka (Privately
+Produced)\n
+Warakagoda, D (2002) The Bird Sounds of Sri
+Lanka, Drongo\n
+White T. (1984) A Field Guide to the Bird Songs
+of South East Asia. London: British Library.\n\n\n
+    </string>
+    <string name="title_activity_other">Others</string>
+    <string name="title_activity_owl">owlActivity</string>
+    <string name="title_activity_ducks">ducksActivity</string>
+    <string name="title_activity_chats">chatsActivity</string>
+    <string name="title_activity_snipes">snipesActivity</string>
+    <string name="title_activity_eagles">eaglesActivity</string>
+    <string name="title_activity_plovers">ploversActivity</string>
+    <string name="title_activity_ergets">BItterns,Herons,Ergets</string>
+    <string name="title_activity_pippits">Pippits,Wagtails</string>
+    <string name="title_activity_gulls">Gulls,Terns,Skimmer</string>
+    <string name="title_activity_martins">martins,swallows</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_patridges">Patridges,Quails,Buttonquails</string>
+    <string name="title_activity_mynas">Starlings,Mynas</string>
+    <string name="title_activity_cuckoos">Cuckoos,Coucals</string>
+    <string name="title_activity_doves">Pigeons,Doves</string>
+
+</resources>
